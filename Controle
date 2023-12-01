@@ -1,0 +1,118 @@
+JAVA
+
+public class Teste {
+    public static void main(String[] args) {
+        for(int i = 10; i <= 10; ++i){
+            System.out.println( i );
+        }
+    }
+}
+int i = 0;
+while(i != 10){
+  i++;
+  print(i);
+}
+import java.util.Scanner;
+public class Switch {
+ public static void main(String[] args) {
+  Scanner entrada = new Scanner(System.in);
+  System.out.println("Escolha um número entre 1 a 10");
+  int numero = entrada.nextInt();
+   switch (numero) {
+     case 1:
+       System.out.println("O número escolhido foi: 1.");
+       break;
+     case 2:
+       System.out.println("O número escolhido foi: 2.");
+       break;
+     case 3:
+       System.out.println("O número escolhido foi: 3.");
+       break;
+     case 4:
+       System.out.println("O número escolhido foi: 4.");
+       break;
+     case 5:
+       System.out.println("O número escolhido foi: 5.");
+       break;
+     case 6:
+       System.out.println("O número escolhido foi: 6.");
+       break;
+     case 7:
+       System.out.println("O número escolhido foi: 7.");
+       break;
+     case 8:
+       System.out.println("O número escolhido foi: 8.");
+       break;
+     case 9:
+       System.out.println("O número escolhido foi: 9.");
+       break;
+     case 10:
+       System.out.println("O número escolhido foi: 10.");
+       break;
+     default:
+       System.out.println("O número escolhido é inválido! Digite um número entre 1 a 10.");
+   }
+ }
+}
+public class Main {
+  public static void main(String[] args) {
+    int x = 20;
+    if (x > 19) {
+      System.out.println("x é maior do que 19");
+    }  
+  }
+}
+
+
+PHP
+
+for ($i=0; $i < 10; $i++) {
+    echo $i."<br>";
+}
+$i = 1;
+while ($i <= 10) {
+    echo $i;
+    $i++;
+}
+switch (expressão) {
+   case valor1:
+       break;
+   case valor2:
+       break;
+   case valor3:
+       break;
+}
+if ($condicao) {
+} else {
+}
+
+PYTHON
+
+numbers = [1, 2, 3, 4, 5]
+for number in numbers:
+    print(number)
+
+while <condição>:
+else:
+def function1():
+    print("Case 1 selected")
+
+def function2():
+    print("Case 2 selected")
+
+def default():
+    print("Value default")
+
+if __name__ == "__main__":
+    switch = {
+        "1": function1,
+        "2": function2
+    }
+
+    case = switch.get("1", default)
+    case()
+idade = 18
+if idade >= 18:
+    print('maior de idade')
+else:
+    print('menor de idade')
